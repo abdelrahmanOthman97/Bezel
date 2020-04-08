@@ -1,0 +1,164 @@
+.fixed
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99666;
+}
+.I
+{
+    border: 0.3px solid rgba(0, 0, 0, 0.1);
+    height: 75px;
+    position: absolute;
+    right: 146px;
+}
+.navbar a{
+    color: #1f1f1f;
+}
+.logo
+{
+    width: 60%;
+
+}
+.bg-pic
+{
+    background-image: url(../images/bg-image-28.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.bg-pic1
+{
+    background-image: url(../images/bg-image-29.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.cont1
+{
+    bottom: 28% !important;
+}
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.margin
+{
+    margin: 120px 0 108px;
+}
+.title {
+    text-align: center;
+  
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.title h1 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.title h2 {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.img1 .box
+{
+    background-color: rgba(0, 195, 218, 0.9);
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: opacity 1s , transform 1s;
+}
+.img1:hover .box
+{
+    opacity: 1;
+}
+.icon a
+{
+    top: 25px;
+    padding: 5px;
+    position: relative;
+    left: 20px;
+    color: #fff;
+}
+.text
+{
+    left: 12px;
+    top: 194px;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    bottom: 0px;
+}
+.title2
+{
+    justify-content: end;   
+}
+.pad-pic
+{
+    background-color: #636363;
+    padding: 120px 0 108px;
+    color: #fff;
+}
+.move 
+{
+    position: absolute;
+    top: -20px;
+    height: 100%;
+}
+.move .spn3
+{
+    left: 28px !important;
+
+}
+.spn span
+{
+    position: absolute;
+    top: 60px;
+    left: 42px;
+    font-size: 16px;
+
+}
+.spn .spn2 
+{
+    top: 32px;
+    border-radius: 20px;
+    background-color: #00c3da;
+    left: 154px;
+    font-size: 10px;
+    padding: 3px 6px;
+    color: #fff;
+}
+.box1
+{
+    padding: 75px 100px;
+    margin: 50px auto;
+    width: 75%;
+}
+.imgbox
+{
+    width: 10%;
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+.circle
+{
+    width: 11px !important;
+    height: 11px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+}
+.circle:hover
+{
+    background-color: red !important;
+}
